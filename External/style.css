@@ -1,0 +1,111 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      padding: 0.14em 0.6rem 0;
+      color: aliceblue;
+      width: 100%;
+      min-height: 100vh;
+}
+.header{
+      width: 100%;
+      height: 50px;
+      display: flex;
+}
+.navBar{
+      display: flex;
+      align-items: center;
+      width: 100%;
+}
+.nav-logo{
+      width: 30%;
+      float: left;
+      text-align: center;
+      background: #111;
+      height: 100%;
+      color: aliceblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.menu{
+      width: 70%;
+      float: right;
+      text-align: center;
+      background: rgb(239 , 60 , 79);
+      height: 100%;
+      color: aliceblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.top{
+      width: 100%;
+      height: 20rem;
+      display: flex;
+      background: #218ec4;
+}
+.text{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+}
+.bottom{
+      width: 100%;
+      height: 15rem;
+      display: flex;
+      justify-content: space-between;
+      text-transform: uppercase;
+}
+.left{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 45%;
+      background: rgb(39,49,71);
+}
+.mid{
+      background: white;
+}
+.right{
+      background: #ff2525;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      color: #111;
+}
+.right-top{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50%;
+      width: 100%;
+      background: rgb(192,228,230);
+}
+.right-bottom{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50%;
+      width: 100%;
+      background-color: rgb(78,186,150);
+}
+.footer {
+      height: 80px;
+      background: #efb413d1;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+}
+.footerBox {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 5rem;
+}
